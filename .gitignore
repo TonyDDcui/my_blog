@@ -1,0 +1,53 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+ECS config.md
+ECS文件
+
+# Certificates and private keys
+SSL/*.key
+SSL/*.pem
+*.key
+*.pem
+*.crt
+*.csr
+
+# Database and backups
+*.sql
+*.dump
+*.backup
+backups/
+data/
+postgres-data/
+mysql-data/
+
+# Runtime output
+logs/
+*.log
+tmp/
+temp/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Windows ADS artifacts
+*Zone.Identifier*

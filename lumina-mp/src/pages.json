@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "Lumina Trip",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/wishlist/wishlist",
+      "style": { "navigationBarTitleText": "我想去做什么" }
+    },
+    {
+      "path": "pages/detail/detail",
+      "style": { "navigationBarTitleText": "候选与询价" }
+    },
+    {
+      "path": "pages/expense/expense",
+      "style": { "navigationBarTitleText": "记一笔" }
+    },
+    {
+      "path": "pages/settle/settle",
+      "style": { "navigationBarTitleText": "平账" }
+    },
+    {
+      "path": "pages/profile/profile",
+      "style": { "navigationBarTitleText": "我的" }
+    },
+    {
+      "path": "pages/admin/admin",
+      "style": { "navigationBarTitleText": "异常推送" }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Lumina Trip",
+    "navigationBarBackgroundColor": "#fafaf7",
+    "backgroundColor": "#fafaf7"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#111",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "行程" },
+      { "pagePath": "pages/wishlist/wishlist", "text": "新建" },
+      { "pagePath": "pages/profile/profile", "text": "我的" }
+    ]
+  }
+}

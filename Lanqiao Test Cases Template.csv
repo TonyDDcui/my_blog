@@ -1,0 +1,3 @@
+id,contest,year,level,title,source_url,source_file,source_format,mcu_family,peripherals,difficulty,expected_capabilities,status
+lanqiao_mcu_YYYY_provincial_a,lanqiao_mcu,YYYY,provincial,题目标题,https://www.lanqiao.cn/paper/,lanqiao_mcu_YYYY_provincial_a.doc,doc,STM32,"timer;gpio;key_scan;segment_display",medium,"硬件方案;接线说明;标准库代码;调试步骤",todo
+lanqiao_mcu_YYYY_national_a,lanqiao_mcu,YYYY,national,题目标题,https://www.lanqiao.cn/paper/,lanqiao_mcu_YYYY_national_a.doc,doc,STM32,"uart;adc;pwm;eeprom",hard,"硬件方案;接线说明;标准库代码;调试步骤",todo

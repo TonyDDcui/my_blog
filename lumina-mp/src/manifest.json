@@ -1,0 +1,35 @@
+{
+    "name": "Lumina Trip",
+    "appid": "",
+    "description": "AI 帮你规划多人短途出行",
+    "versionName": "0.1.0",
+    "versionCode": "1",
+    "transformPx": false,
+    "app-plus": {
+        "usingComponents": true,
+        "nvueStyleCompiler": "uni-app",
+        "compilerVersion": 3
+    },
+    "h5": {
+        "router": {
+            "mode": "hash",
+            "base": "/lumina/"
+        }
+    },
+    "mp-weixin": {
+        "appid": "wx8041c74e66dbd0b9",
+        "setting": {
+            "urlCheck": false,
+            "es6": true,
+            "minified": true,
+            "postcss": true
+        },
+        "usingComponents": true,
+        "permission": {
+            "scope.userLocation": {
+                "desc": "用于打开行程中的目的地位置"
+            }
+        }
+    },
+    "vueVersion": "3"
+}
